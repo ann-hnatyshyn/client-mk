@@ -11,7 +11,7 @@ const ServicesPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Services</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            We offer a range of professional services tailored to meet your specific needs.
+            We offer a 15 minutes phone consultation, for free
           </p>
         </div>
       </section>
@@ -27,13 +27,13 @@ const ServicesPage: React.FC = () => {
                 
                 <div className="flex flex-wrap mb-6">
                   <div className="flex items-center mr-6 mb-2">
-                    <Clock className="h-5 w-5 text-indigo-600 mr-2" />
+                    <Clock className="h-5 w-5 text-sky-600 mr-2" />
                     <span className="text-gray-700">{service.duration} minutes</span>
                   </div>
-                  <div className="flex items-center mb-2">
+                  {/* <div className="flex items-center mb-2">
                     <DollarSign className="h-5 w-5 text-indigo-600 mr-2" />
                     <span className="text-gray-700">${service.price}</span>
-                  </div>
+                  </div> */}
                 </div>
                 
                 <div className="mb-6">
@@ -57,7 +57,7 @@ const ServicesPage: React.FC = () => {
                 <Link
                   to="/booking"
                   state={{ selectedService: service }}
-                  className="block w-full bg-indigo-600 text-white text-center py-3 rounded-md font-medium hover:bg-indigo-700 transition duration-300"
+                  className="block w-full bg-sky-600 text-white text-center py-3 rounded-md font-medium hover:bg-indigo-700 transition duration-300"
                 >
                   Book This Service
                 </Link>
@@ -80,16 +80,16 @@ const ServicesPage: React.FC = () => {
           <div className="max-w-3xl mx-auto">
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">How do I prepare for my appointment?</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Do you offer in person sessions or virtual?</h3>
                 <p className="text-gray-700">
-                  We recommend arriving 10 minutes early for your appointment. Please bring any relevant information or documentation that might be helpful for your session.
+                  We only offer Virtual care. Research shows that it is equally as effective as in-person. 
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">What is your cancellation policy?</h3>
                 <p className="text-gray-700">
-                  We require 24 hours notice for cancellations. Late cancellations or no-shows may be subject to a fee equal to 50% of the service price.
+                  We require 24 hours notice for cancellations. Late cancellations or no-shows may be subject to a fee.
                 </p>
               </div>
 
@@ -101,9 +101,23 @@ const ServicesPage: React.FC = () => {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Do you offer package discounts?</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Do you offer professional consultation?</h3>
                 <p className="text-gray-700">
-                  Yes, we offer discounted rates for clients who book multiple sessions. Please contact us for more information about our package options.
+                  Yes, we offer clinical consultation to healthcare practitoners by phone or virtually. Specifically, our expertise includes cognitive-behavioural therapy and dialectical behaviour therapy for a variety of mental health difficulties.
+                </p>
+              </div>
+
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Can I use my insurance to pay?</h3>
+                <p className="text-gray-700">
+                Meghan Kennedy is a registered social worker and clinical counselor. You can submit your receipt to your insurance company for reimbursement.
+                </p>
+              </div>
+
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">How do I pay for my session?</h3>
+                <p className="text-gray-700">
+                To pay by credit card, please provide your card information in advance; your card will be charged once the session is complete. For e-transfer payments, we require payment prior to the session.
                 </p>
               </div>
             </div>
