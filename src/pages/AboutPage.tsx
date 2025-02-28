@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Users, Award, Clock } from 'lucide-react';
+import { Shield, Users, Award, Clock, RefreshCw, Eye, Gauge } from 'lucide-react';
 
 const AboutPage: React.FC = () => {
   return (
@@ -7,9 +7,9 @@ const AboutPage: React.FC = () => {
       {/* Hero Section */}
       <section className="bg-indigo-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">About Our Company</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Approach</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            We're dedicated to providing exceptional service and making appointment booking simple and efficient.
+          Skills to Help You Cope, Communicate, and Thrive.
           </p>
         </div>
       </section>
@@ -19,15 +19,15 @@ const AboutPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">From Experience to Expertise</h2>
               <p className="text-gray-700 mb-4">
-                Founded in 2020, AppointEase was created with a simple mission: to streamline the appointment booking process for businesses and their clients. We recognized the challenges that both service providers and customers face when scheduling appointments and wanted to create a solution that would benefit everyone.
+              With a Master’s degree in Social Work and over a decade of experience as a clinical counselor, we have worked within health authorities across four different provinces, providing compassionate and evidence-based care.
               </p>
               <p className="text-gray-700 mb-4">
-                What started as a small team with a big idea has grown into a trusted platform used by businesses across various industries. Our focus on user experience, reliability, and security has made us a leader in the appointment booking space.
+              Specializing in Cognitive Behavioral Therapy (CBT) and Dialectical Behavior Therapy (DBT), we help individuals develop practical skills to manage anxiety, depression, and emotional distress.
               </p>
               <p className="text-gray-700">
-                Today, we continue to innovate and improve our platform, always keeping our users' needs at the forefront of everything we do. We're proud of how far we've come and excited about where we're headed.
+              Our approach focuses on teaching mindfulness, emotional regulation, distress tolerance, and effective communication—empowering clients to build resilience and create meaningful change in their lives. Whether you're navigating life’s challenges or seeking tools for personal growth, we are here to support you every step of the way.
               </p>
             </div>
             <div className="md:w-1/2">
@@ -47,18 +47,38 @@ const AboutPage: React.FC = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Values</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              These core principles guide everything we do and help us deliver the best possible experience.
+            Dialectical Behavior Therapy (DBT) is based on several core values and principles that guide its approach to treatment. These include
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md text-center">
               <div className="bg-indigo-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                <Users className="h-8 w-8 text-indigo-600" />
+                <RefreshCw className="h-8 w-8 text-indigo-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Customer First</h3>
+              <h3 className="text-xl font-semibold mb-4">Balance Between Acceptance and Change</h3>
               <p className="text-gray-600">
-                We prioritize our users' needs and continuously improve based on their feedback.
+              DBT teaches individuals to accept their emotions and experiences while also working towards positive change. This balance is key to fostering personal growth.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-lg shadow-md text-center">
+              <div className="bg-indigo-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                <Eye className="h-8 w-8 text-indigo-600" />
+              </div>
+              <h3 className="text-xl font-semibold mb-4"> Mindfulness</h3>
+              <p className="text-gray-600">
+              A core DBT skill, mindfulness helps individuals stay present, reduce emotional reactivity, and develop greater self-awareness in their daily lives.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-lg shadow-md text-center">
+              <div className="bg-indigo-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                <Gauge className="h-8 w-8 text-indigo-600" />
+              </div>
+              <h3 className="text-xl font-semibold mb-4">Emotional Regulation</h3>
+              <p className="text-gray-600">
+              DBT provides practical skills to manage intense emotions, reduce impulsive reactions, and build emotional resilience.
               </p>
             </div>
 
@@ -66,29 +86,9 @@ const AboutPage: React.FC = () => {
               <div className="bg-indigo-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
                 <Shield className="h-8 w-8 text-indigo-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Trust & Security</h3>
+              <h3 className="text-xl font-semibold mb-4">Distress Tolerance</h3>
               <p className="text-gray-600">
-                We maintain the highest standards of data protection and secure payment processing.
-              </p>
-            </div>
-
-            <div className="bg-white p-8 rounded-lg shadow-md text-center">
-              <div className="bg-indigo-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                <Award className="h-8 w-8 text-indigo-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-4">Excellence</h3>
-              <p className="text-gray-600">
-                We strive for excellence in every aspect of our service and user experience.
-              </p>
-            </div>
-
-            <div className="bg-white p-8 rounded-lg shadow-md text-center">
-              <div className="bg-indigo-100 p-3 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                <Clock className="h-8 w-8 text-indigo-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-4">Efficiency</h3>
-              <p className="text-gray-600">
-                We're committed to saving time for both businesses and their clients.
+              Rather than avoiding or suppressing distress, DBT helps individuals tolerate difficult emotions and situations in healthy ways.
               </p>
             </div>
           </div>

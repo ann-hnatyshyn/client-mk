@@ -5,7 +5,7 @@ import { loadStripe } from '@stripe/stripe-js';
 
 // Layout components
 import Navbar from './components/layout/Navbar';
-import Footer from './components/layout/Footer';
+import Footer from './components/layout/footer';
 
 // Pages
 import HomePage from './pages/HomePage';
