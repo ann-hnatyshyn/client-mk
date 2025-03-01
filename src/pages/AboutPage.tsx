@@ -101,12 +101,12 @@ const AboutPage: React.FC = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The dedicated professionals behind AppointEase who make it all possible.
+              {/* The dedicated professionals behind AppointEase who make it all possible. */}
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+            {/* <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <img
                 src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
                 alt="Team Member"
@@ -117,7 +117,7 @@ const AboutPage: React.FC = () => {
               <p className="text-gray-600">
                 With over 15 years of experience in tech and business management, David leads our company vision and strategy.
               </p>
-            </div>
+            </div> */}
 
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <img
@@ -125,14 +125,14 @@ const AboutPage: React.FC = () => {
                 alt="Team Member"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
-              <h3 className="text-xl font-semibold">Jennifer Lee</h3>
-              <p className="text-indigo-600 mb-4">CTO</p>
+              <h3 className="text-xl font-semibold">Meghan Kennedy</h3>
+              <p className="text-indigo-600 mb-4">Clinical Counselor</p>
               <p className="text-gray-600">
-                Jennifer oversees our technical operations and ensures our platform remains cutting-edge and reliable.
+                Has 10+ years of expereince in treating Anxiety disorders, Clinical Depression, and many forms of Neurological and Developmental Disorders.
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+            {/* <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <img
                 src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
                 alt="Team Member"
@@ -143,7 +143,7 @@ const AboutPage: React.FC = () => {
               <p className="text-gray-600">
                 Marcus and his team ensure that our clients receive the support they need to make the most of our platform.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

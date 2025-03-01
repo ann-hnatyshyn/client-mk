@@ -15,26 +15,26 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <Lightbulb className="h-8 w-8 text-indigo-600" />
-              <span className="ml-2 text-xl font-bold text-gray-900">Meghan Kennedy Clinical Counseling</span>
+              <Lightbulb className="h-8 w-8 text-sky-600" />
+              <span className="ml-2 text-xl font-bold text-gray-900">M.K. Clinical Counseling</span>
             </Link>
           </div>
           
           {/* Desktop menu */}
           <div className="hidden md:flex md:items-center md:space-x-8">
-            <Link to="/" className="text-gray-700 hover:text-indigo-600 flex items-center">
+            <Link to="/" className="text-gray-700 hover:text-sky-600 flex items-center">
               <Home className="h-5 w-5 mr-1" />
               <span>Home</span>
             </Link>
-            <Link to="/about" className="text-gray-700 hover:text-indigo-600 flex items-center">
+            <Link to="/about" className="text-gray-700 hover:text-sky-600 flex items-center">
               <Info className="h-5 w-5 mr-1" />
               <span>About</span>
             </Link>
-            <Link to="/services" className="text-gray-700 hover:text-indigo-600 flex items-center">
+            <Link to="/services" className="text-gray-700 hover:text-sky-600 flex items-center">
               <Briefcase className="h-5 w-5 mr-1" />
               <span>Services</span>
             </Link>
-            <Link to="/booking" className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition duration-300">
+            <Link to="/booking" className="bg-sky-600 text-white px-4 py-2 rounded-md hover:bg-sky-700 transition duration-300">
               Book Now
             </Link>
           </div>

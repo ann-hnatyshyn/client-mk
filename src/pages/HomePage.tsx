@@ -10,10 +10,10 @@ const HomePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Streamline Your Appointments with Ease
+            Evidence-based therapy for lasting change
             </h1>
             <p className="text-xl mb-8">
-              Book appointments, make payments, and manage your schedule all in one place.
+            Meghan Kennedy is highly experienced in both CBT and DBT, with over 10 years of practice in helping individuals achieve their goals.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Link
@@ -46,7 +46,7 @@ const HomePage: React.FC = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">How It Works</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our streamlined process makes booking and managing appointments simple and efficient.
+            First, schedule your complimentary 15-minute consultation to see if we're the right fit for you.
             </p>
           </div>
 
@@ -85,7 +85,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-16 bg-white">
+      {/* <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">What Our Clients Say</h2>
@@ -168,14 +168,14 @@ const HomePage: React.FC = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="bg-indigo-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Book Your Appointment?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Join our satisfied clients and experience our services firsthand. Book your appointment today.
+
           </p>
           <Link
             to="/booking"
